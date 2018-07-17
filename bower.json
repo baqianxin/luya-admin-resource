@@ -1,0 +1,41 @@
+{
+  "name": "ghs-core",
+  "description": "ghs电商后台系统",
+  "main": "bower",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular" : "~1.6.5",
+    "angular-loading-bar": "^0.9",
+    "angularjs-datepicker": "^2.1.0",
+    "ui-router": "~0.4.0",
+    "ng-file-upload" : "~12.2.0",
+    "ng-flow": "~2.7.0",
+    "ng-wig" : "~3.0.0",
+    "twigjs-bower": "~0.10.5",
+    "angular-filter" : "~0.5.15",
+    "bowser": "~1.7.3",
+    "echarts": "~3.8.5"
+  },
+  "authors": [
+    "OOM-Baqianxin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bower",
+    "js",
+    "npm",
+    "ghs",
+    "yii2",
+    "luya"
+  ],
+  "homepage": "http://oom-cc.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ]
+}
