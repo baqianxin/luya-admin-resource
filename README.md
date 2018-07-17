@@ -1,3 +1,6 @@
+# Install
+`npm install` & ` npm install -g bower` & `bower install` & `gulp`
+
 # Upgrade
 
 `npm update` in this folder.  
