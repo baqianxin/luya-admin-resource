@@ -26,6 +26,7 @@ $grays: (
     900: $gray-900
 );
 
+$shark:   #7E1A83;
 $blue:    #007bff;
 $indigo:  #6610f2;
 $purple:  #6f42c1;
@@ -39,9 +40,10 @@ $cyan:    #17a2b8;
 
 // new luya logo colors v1.0.0
 
-$luya: #E50060;
+$luya: #7E1A83;
 
 $colors: (
+    shark: $shark,
     blue: $blue,
     indigo: $indigo,
     purple: $purple,
@@ -61,9 +63,10 @@ $colors: (
 );
 
 $theme-colors: (
+    shark: $shark,
     primary: $luya,
     secondary: $gray-600,
-    success: $green,
+    success: $shark,
     info: $cyan,
     warning: $yellow,
     danger: $red,
