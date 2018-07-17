@@ -407,6 +407,7 @@ td, th{
   display: table-cell;
   text-align: left;
   vertical-align: middle;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
   border-radius: 2px;
 }
 
@@ -598,7 +599,7 @@ span.badge {
   padding: 0 6px;
   margin-left: 14px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: inherit;
   color: color('grey', 'darken-1');
   float: right;

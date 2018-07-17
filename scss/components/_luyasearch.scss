@@ -26,7 +26,7 @@
         left: 62px;
 
         &.luyasearch-toggled {
-            left: 200px;
+            left: $mainnav-width;
         }
     }
 }
@@ -56,7 +56,7 @@
     }
 
     .luyasearch-open.luyasearch-toggled & {
-        left: 200px;
+        left: $mainnav-width;
     }
 }
 
