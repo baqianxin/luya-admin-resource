@@ -1,4 +1,5 @@
 .sass-cache/
 /node_modules/
 /bower/
-.idea/
+/.idea/
+/gulp-config.js
