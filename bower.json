@@ -34,7 +34,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "components",
+    "bower",
     "test",
     "tests"
   ]
