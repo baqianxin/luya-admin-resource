@@ -3,3 +3,7 @@
 /bower/
 /.idea/
 /gulp-config.js
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/luya-admin-resources.iml
+/.idea/modules.xml
