@@ -18,7 +18,7 @@ form:not(.form-inline) .form-check-input {
 }
 
 textarea {
-    min-height: 46px;
+    min-height: 86px;
 }
 
 .form-check {
@@ -115,7 +115,7 @@ input[type="radio"] {
     & + label {
         cursor: pointer;
         float: left;
-        margin: 0 0 20px 0;
+        margin: 0 0 3px 0;
         width: auto;
     }
 }

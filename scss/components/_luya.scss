@@ -1,7 +1,6 @@
 .luya {
     display: block;
     width: 100%;
-    background: map-get($grays,500);
 
     @media (min-width: $mobile-nav-breakpoint) {
         display: flex;
@@ -13,14 +12,12 @@
 }
 
 .luya-main-wrapper {
-    background-color: map-get($colors, white);
     display: block;
     height: 100%;
     width: 100%;
 }
 
 .luya-main {
-    background-color: map-get($grays, 100);
     display: block;
     height: 100%;
 
@@ -35,7 +32,6 @@
 }
 
 .luya-mainnav {
-    background-color: map_get($colors,gray);
     width: 100%;
     z-index: z-index(navbar);
 
@@ -66,7 +62,7 @@
 }
 
 .luya-subnav {
-    background-color: map-get($colors, white);
+    background-color: map-get($grays, 100);
     color: color('gray');
     display: flex;
     flex-direction: column;
@@ -86,8 +82,8 @@
     @media (min-width: $mobile-nav-breakpoint) {
         align-items: stretch;
         display: flex;
-        flex: 0 0 200px;
-        max-width: 200px;
+        flex: 0 0 250px;
+        max-width: 250px;
         padding: $content-padding-y $content-padding-x;
 
         .cmsnav {
@@ -111,8 +107,7 @@
 }
 
 .luya-content {
-    margin-left: 5px;
-    background-color: map-get($colors, white);
+    background-color: map-get($grays, 100);
     padding: $content-padding-y $content-padding-x;
     &::-webkit-scrollbar {
         display: none; // Safari and Chrome
