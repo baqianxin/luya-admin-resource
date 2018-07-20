@@ -21,6 +21,16 @@
 
 .input-group-addon {
     user-select: none;
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #868e96;
+    border-radius: 0;
 
     .form-control ~ & {
         margin-left: -1px;

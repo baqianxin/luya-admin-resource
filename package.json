@@ -7,7 +7,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "bootstrap": "^4.1.2",
+    "bootstrap": "^4.0.0",
     "gulp": "^3.9.1",
     "zephir-gulp-workflow": "^3.0.2"
   }

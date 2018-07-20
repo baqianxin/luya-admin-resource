@@ -82,8 +82,8 @@
     @media (min-width: $mobile-nav-breakpoint) {
         align-items: stretch;
         display: flex;
-        flex: 0 0 250px;
-        max-width: 250px;
+        flex: 0 0 180px;
+        max-width: 180px;
         padding: $content-padding-y $content-padding-x;
 
         .cmsnav {
@@ -107,7 +107,7 @@
 }
 
 .luya-content {
-    background-color: map-get($grays, 100);
+    background-color: map-get($grays,100);
     padding: $content-padding-y $content-padding-x;
     &::-webkit-scrollbar {
         display: none; // Safari and Chrome
